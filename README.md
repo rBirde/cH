@@ -31,4 +31,8 @@ Proper pipelines for the machine learning algorithms for such a task are prepare
 
 Amongst the Machine Learning algorithms, XGBoost Random Forest Classifiers (100 estimators) perform best in terms of mean accuracy and std, plus the classification reports for all the folds (especially recall for "spam" class). Naive Bayes is third in that. SVM performs worst among them.
 
+### BERT
+BERT (Bidirectional Encoder Representations from Transformers) introduced by Google has proved to work astoundingly in NLP task.
+BERT’s main innovation is applying the bidirectional training of Transformer, a popular attention model, to language modelling. This is different from left to right or combined left-to-right and right-to-left attentions. in NLP tasks bidirectionally can have a deeper sense of language context and flow than single-direction language models. The dataset has also been trained using pretrained BERT model and fine tuning for this special task which performs significantly good on the dataset.
+
 
